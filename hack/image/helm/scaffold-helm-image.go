@@ -17,10 +17,10 @@ package main
 import (
 	"log"
 
-	"github.com/operator-framework/operator-sdk/internal/scaffold"
-	"github.com/operator-framework/operator-sdk/internal/scaffold/helm"
-	"github.com/operator-framework/operator-sdk/internal/scaffold/input"
-	"github.com/operator-framework/operator-sdk/internal/util/projutil"
+	"github.com/Medium/operator-sdk/internal/scaffold"
+	"github.com/Medium/operator-sdk/internal/scaffold/helm"
+	"github.com/Medium/operator-sdk/internal/scaffold/input"
+	"github.com/Medium/operator-sdk/internal/util/projutil"
 )
 
 // main renders scaffolds that are required to build the helm operator base

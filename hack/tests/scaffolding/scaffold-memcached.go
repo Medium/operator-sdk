@@ -25,7 +25,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/operator-framework/operator-sdk/internal/util/fileutil"
+	"github.com/Medium/operator-sdk/internal/util/fileutil"
 
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
@@ -34,7 +34,7 @@ import (
 // TODO: Migrate most/all of the cli commands to the bash script instead of keeping them here
 
 const (
-	sdkRepo      = "github.com/operator-framework/operator-sdk"
+	sdkRepo      = "github.com/Medium/operator-sdk"
 	operatorName = "memcached-operator"
 	testRepo     = "github.com/example-inc/" + operatorName
 )

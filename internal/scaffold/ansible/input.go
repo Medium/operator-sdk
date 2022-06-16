@@ -14,7 +14,7 @@
 package ansible
 
 import (
-	"github.com/operator-framework/operator-sdk/internal/scaffold/input"
+	"github.com/Medium/operator-sdk/internal/scaffold/input"
 	"github.com/spf13/afero"
 )
 

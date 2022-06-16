@@ -1,7 +1,7 @@
 FROM openshift/origin-release:golang-1.13
 
-WORKDIR /go/src/github.com/operator-framework/operator-sdk
-ENV GOPATH=/go PATH=/go/src/github.com/operator-framework/operator-sdk/build:$PATH
+WORKDIR /go/src/github.com/Medium/operator-sdk
+ENV GOPATH=/go PATH=/go/src/github.com/Medium/operator-sdk/build:$PATH
 
 COPY . .
 

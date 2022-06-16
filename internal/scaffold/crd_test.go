@@ -19,10 +19,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/operator-framework/operator-sdk/internal/scaffold/input"
-	testutil "github.com/operator-framework/operator-sdk/internal/scaffold/internal/testutil"
-	"github.com/operator-framework/operator-sdk/internal/util/diffutil"
-	"github.com/operator-framework/operator-sdk/internal/util/fileutil"
+	"github.com/Medium/operator-sdk/internal/scaffold/input"
+	testutil "github.com/Medium/operator-sdk/internal/scaffold/internal/testutil"
+	"github.com/Medium/operator-sdk/internal/util/diffutil"
+	"github.com/Medium/operator-sdk/internal/util/fileutil"
 
 	"github.com/spf13/afero"
 )

@@ -15,9 +15,9 @@
 package run
 
 import (
-	"github.com/operator-framework/operator-sdk/pkg/ansible"
-	aoflags "github.com/operator-framework/operator-sdk/pkg/ansible/flags"
-	"github.com/operator-framework/operator-sdk/pkg/log/zap"
+	"github.com/Medium/operator-sdk/pkg/ansible"
+	aoflags "github.com/Medium/operator-sdk/pkg/ansible/flags"
+	"github.com/Medium/operator-sdk/pkg/log/zap"
 
 	"github.com/spf13/cobra"
 	logf "sigs.k8s.io/controller-runtime/pkg/log"

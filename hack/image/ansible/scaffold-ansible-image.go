@@ -15,10 +15,10 @@
 package main
 
 import (
-	"github.com/operator-framework/operator-sdk/internal/scaffold"
-	"github.com/operator-framework/operator-sdk/internal/scaffold/ansible"
-	"github.com/operator-framework/operator-sdk/internal/scaffold/input"
-	"github.com/operator-framework/operator-sdk/internal/util/projutil"
+	"github.com/Medium/operator-sdk/internal/scaffold"
+	"github.com/Medium/operator-sdk/internal/scaffold/ansible"
+	"github.com/Medium/operator-sdk/internal/scaffold/input"
+	"github.com/Medium/operator-sdk/internal/util/projutil"
 
 	log "github.com/sirupsen/logrus"
 )

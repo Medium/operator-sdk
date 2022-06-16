@@ -17,7 +17,7 @@ package events
 import (
 	"errors"
 
-	"github.com/operator-framework/operator-sdk/pkg/ansible/runner/eventapi"
+	"github.com/Medium/operator-sdk/pkg/ansible/runner/eventapi"
 
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	logf "sigs.k8s.io/controller-runtime/pkg/log"

@@ -20,9 +20,9 @@ import (
 	goerrors "errors"
 	"sort"
 
-	"github.com/operator-framework/operator-sdk/internal/scaffold"
-	"github.com/operator-framework/operator-sdk/internal/scaffold/olm-catalog/descriptor"
-	"github.com/operator-framework/operator-sdk/pkg/k8sutil"
+	"github.com/Medium/operator-sdk/internal/scaffold"
+	"github.com/Medium/operator-sdk/internal/scaffold/olm-catalog/descriptor"
+	"github.com/Medium/operator-sdk/pkg/k8sutil"
 	"github.com/pkg/errors"
 
 	"github.com/ghodss/yaml"

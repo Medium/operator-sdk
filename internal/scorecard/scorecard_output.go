@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	schelpers "github.com/operator-framework/operator-sdk/internal/scorecard/helpers"
-	scapi "github.com/operator-framework/operator-sdk/pkg/apis/scorecard"
-	scapiv1alpha1 "github.com/operator-framework/operator-sdk/pkg/apis/scorecard/v1alpha1"
-	scapiv1alpha2 "github.com/operator-framework/operator-sdk/pkg/apis/scorecard/v1alpha2"
+	schelpers "github.com/Medium/operator-sdk/internal/scorecard/helpers"
+	scapi "github.com/Medium/operator-sdk/pkg/apis/scorecard"
+	scapiv1alpha1 "github.com/Medium/operator-sdk/pkg/apis/scorecard/v1alpha1"
+	scapiv1alpha2 "github.com/Medium/operator-sdk/pkg/apis/scorecard/v1alpha2"
 )
 
 func printPluginOutputs(version string, pluginOutputs []scapiv1alpha1.ScorecardOutput) error {

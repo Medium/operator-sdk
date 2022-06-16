@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/operator-framework/operator-sdk/internal/annotations"
+	"github.com/Medium/operator-sdk/internal/annotations"
 	"k8s.io/gengo/types"
 
 	"github.com/operator-framework/operator-lifecycle-manager/pkg/api/apis/operators/v1alpha1"

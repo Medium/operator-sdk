@@ -23,7 +23,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"github.com/operator-framework/operator-sdk/pkg/ansible/watches"
+	"github.com/Medium/operator-sdk/pkg/ansible/watches"
 )
 
 func checkCmdFunc(t *testing.T, cmdFunc cmdFuncType, playbook, role string, verbosity int) {

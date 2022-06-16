@@ -28,8 +28,8 @@ import (
 	apis "github.com/example-inc/memcached-operator/pkg/apis"
 	operator "github.com/example-inc/memcached-operator/pkg/apis/cache/v1alpha1"
 
-	framework "github.com/operator-framework/operator-sdk/pkg/test"
-	"github.com/operator-framework/operator-sdk/pkg/test/e2eutil"
+	framework "github.com/Medium/operator-sdk/pkg/test"
+	"github.com/Medium/operator-sdk/pkg/test/e2eutil"
 	dto "github.com/prometheus/client_model/go"
 	"github.com/prometheus/common/expfmt"
 	"github.com/prometheus/prometheus/util/promlint"

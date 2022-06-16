@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/operator-framework/operator-sdk/internal/scorecard"
-	schelpers "github.com/operator-framework/operator-sdk/internal/scorecard/helpers"
-	scplugins "github.com/operator-framework/operator-sdk/internal/scorecard/plugins"
+	"github.com/Medium/operator-sdk/internal/scorecard"
+	schelpers "github.com/Medium/operator-sdk/internal/scorecard/helpers"
+	scplugins "github.com/Medium/operator-sdk/internal/scorecard/plugins"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

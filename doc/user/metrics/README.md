@@ -16,7 +16,7 @@ By default, the metrics are served on `0.0.0.0:8383/metrics`. To modify the port
     import(
         "context"
 
-        "github.com/operator-framework/operator-sdk/pkg/metrics"
+        "github.com/Medium/operator-sdk/pkg/metrics"
         "sigs.k8s.io/controller-runtime/pkg/manager"
         "k8s.io/api/core/v1"
         "k8s.io/apimachinery/pkg/util/intstr"

@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/operator-framework/operator-sdk/pkg/restmapper"
+	"github.com/Medium/operator-sdk/pkg/restmapper"
 
 	"github.com/blang/semver"
 	olmapiv1alpha1 "github.com/operator-framework/operator-lifecycle-manager/pkg/api/apis/operators/v1alpha1"

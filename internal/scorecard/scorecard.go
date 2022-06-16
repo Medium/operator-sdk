@@ -21,11 +21,11 @@ import (
 	"os"
 	"strings"
 
-	schelpers "github.com/operator-framework/operator-sdk/internal/scorecard/helpers"
-	scplugins "github.com/operator-framework/operator-sdk/internal/scorecard/plugins"
-	"github.com/operator-framework/operator-sdk/internal/util/projutil"
-	scapiv1alpha1 "github.com/operator-framework/operator-sdk/pkg/apis/scorecard/v1alpha1"
-	"github.com/operator-framework/operator-sdk/version"
+	schelpers "github.com/Medium/operator-sdk/internal/scorecard/helpers"
+	scplugins "github.com/Medium/operator-sdk/internal/scorecard/plugins"
+	"github.com/Medium/operator-sdk/internal/util/projutil"
+	scapiv1alpha1 "github.com/Medium/operator-sdk/pkg/apis/scorecard/v1alpha1"
+	"github.com/Medium/operator-sdk/version"
 	"k8s.io/apimachinery/pkg/labels"
 
 	"github.com/mitchellh/mapstructure"
@@ -233,7 +233,7 @@ func makeSCViper() {
 
 func configDocLink() string {
 	if strings.HasSuffix(version.Version, "+git") {
-		return "https://github.com/operator-framework/operator-sdk/blob/master/doc/test-framework/scorecard.md"
+		return "https://github.com/Medium/operator-sdk/blob/master/doc/test-framework/scorecard.md"
 	}
-	return fmt.Sprintf("https://github.com/operator-framework/operator-sdk/blob/%s/doc/test-framework/scorecard.md", version.Version)
+	return fmt.Sprintf("https://github.com/Medium/operator-sdk/blob/%s/doc/test-framework/scorecard.md", version.Version)
 }

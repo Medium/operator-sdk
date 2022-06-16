@@ -23,9 +23,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/operator-framework/operator-sdk/internal/util/yamlutil"
-	proxyConf "github.com/operator-framework/operator-sdk/pkg/ansible/proxy/kubeconfig"
-	"github.com/operator-framework/operator-sdk/pkg/k8sutil"
+	"github.com/Medium/operator-sdk/internal/util/yamlutil"
+	proxyConf "github.com/Medium/operator-sdk/pkg/ansible/proxy/kubeconfig"
+	"github.com/Medium/operator-sdk/pkg/k8sutil"
 
 	"github.com/ghodss/yaml"
 	appsv1 "k8s.io/api/apps/v1"

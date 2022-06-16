@@ -17,7 +17,7 @@ package schelpers
 import (
 	"fmt"
 
-	scapiv1alpha1 "github.com/operator-framework/operator-sdk/pkg/apis/scorecard/v1alpha1"
+	scapiv1alpha1 "github.com/Medium/operator-sdk/pkg/apis/scorecard/v1alpha1"
 )
 
 // These functions should be in the public test definitions file, but they are not complete/stable,

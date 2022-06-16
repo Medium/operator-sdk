@@ -17,8 +17,8 @@ package helm
 import (
 	"path/filepath"
 
-	"github.com/operator-framework/operator-sdk/internal/scaffold"
-	"github.com/operator-framework/operator-sdk/internal/scaffold/input"
+	"github.com/Medium/operator-sdk/internal/scaffold"
+	"github.com/Medium/operator-sdk/internal/scaffold/input"
 )
 
 // Operator specifies the Helm operator.yaml manifest scaffold

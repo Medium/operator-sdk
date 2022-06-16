@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/operator-framework/operator-sdk/internal/scaffold"
-	"github.com/operator-framework/operator-sdk/internal/scaffold/helm"
+	"github.com/Medium/operator-sdk/internal/scaffold"
+	"github.com/Medium/operator-sdk/internal/scaffold/helm"
 
 	"github.com/stretchr/testify/assert"
 	"k8s.io/helm/pkg/chartutil"

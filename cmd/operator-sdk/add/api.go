@@ -20,10 +20,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/operator-framework/operator-sdk/cmd/operator-sdk/internal/genutil"
-	"github.com/operator-framework/operator-sdk/internal/scaffold"
-	"github.com/operator-framework/operator-sdk/internal/scaffold/input"
-	"github.com/operator-framework/operator-sdk/internal/util/projutil"
+	"github.com/Medium/operator-sdk/cmd/operator-sdk/internal/genutil"
+	"github.com/Medium/operator-sdk/internal/scaffold"
+	"github.com/Medium/operator-sdk/internal/scaffold/input"
+	"github.com/Medium/operator-sdk/internal/util/projutil"
 
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"

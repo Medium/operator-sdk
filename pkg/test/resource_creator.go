@@ -20,8 +20,8 @@ import (
 	"io/ioutil"
 	"time"
 
+	"github.com/Medium/operator-sdk/internal/util/yamlutil"
 	"github.com/ghodss/yaml"
-	"github.com/operator-framework/operator-sdk/internal/util/yamlutil"
 	core "k8s.io/api/core/v1"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

@@ -15,7 +15,7 @@
 package controller
 
 import (
-	"github.com/operator-framework/operator-sdk/test/test-framework/pkg/controller/memcachedrs"
+	"github.com/Medium/operator-sdk/test/test-framework/pkg/controller/memcachedrs"
 )
 
 func init() {

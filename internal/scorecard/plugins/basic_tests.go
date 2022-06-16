@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	schelpers "github.com/operator-framework/operator-sdk/internal/scorecard/helpers"
+	schelpers "github.com/Medium/operator-sdk/internal/scorecard/helpers"
 
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"

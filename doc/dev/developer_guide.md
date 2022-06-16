@@ -40,7 +40,7 @@ See the project [README][sdk-readme] for more details.
 
 [git-tool]:https://git-scm.com/downloads
 [go-tool]:https://golang.org/dl/
-[repo-sdk]:https://github.com/operator-framework/operator-sdk
+[repo-sdk]:https://github.com/Medium/operator-sdk
 [fork-guide]:https://help.github.com/en/articles/fork-a-repo
 [docker-tool]:https://docs.docker.com/install/
 [kubectl-tool]:https://kubernetes.io/docs/tasks/tools/install-kubectl/

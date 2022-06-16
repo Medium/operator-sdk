@@ -17,7 +17,7 @@ package descriptor
 import (
 	"strings"
 
-	"github.com/operator-framework/operator-sdk/internal/util/k8sutil"
+	"github.com/Medium/operator-sdk/internal/util/k8sutil"
 
 	"github.com/pkg/errors"
 	"k8s.io/gengo/types"

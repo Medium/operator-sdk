@@ -18,7 +18,7 @@
 		]
 	},
 	{
-		"project": "github.com/operator-framework/operator-sdk",
+		"project": "github.com/Medium/operator-sdk",
 		"licenses": [
 			{
 				"type": "Apache License 2.0",

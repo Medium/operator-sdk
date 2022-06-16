@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"html/template"
 
-	"github.com/operator-framework/operator-sdk/internal/util/projutil"
+	"github.com/Medium/operator-sdk/internal/util/projutil"
 )
 
 func ExecGoModTmpl(tmpl string) ([]byte, error) {

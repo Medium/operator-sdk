@@ -17,10 +17,10 @@ package main
 import (
 	"os"
 
-	proxy "github.com/operator-framework/operator-sdk/pkg/ansible/proxy"
-	"github.com/operator-framework/operator-sdk/pkg/ansible/proxy/controllermap"
-	"github.com/operator-framework/operator-sdk/pkg/k8sutil"
-	"github.com/operator-framework/operator-sdk/pkg/log/zap"
+	proxy "github.com/Medium/operator-sdk/pkg/ansible/proxy"
+	"github.com/Medium/operator-sdk/pkg/ansible/proxy/controllermap"
+	"github.com/Medium/operator-sdk/pkg/k8sutil"
+	"github.com/Medium/operator-sdk/pkg/log/zap"
 
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/pflag"

@@ -17,8 +17,8 @@ package ansible
 import (
 	"fmt"
 
-	"github.com/operator-framework/operator-sdk/internal/scaffold/input"
-	"github.com/operator-framework/operator-sdk/internal/scaffold/internal/deps"
+	"github.com/Medium/operator-sdk/internal/scaffold/input"
+	"github.com/Medium/operator-sdk/internal/scaffold/internal/deps"
 )
 
 const GoModFile = "go.mod"
@@ -41,7 +41,7 @@ const goModTmpl = `module {{ .Repo }}
 go 1.13
 
 require (
-	github.com/operator-framework/operator-sdk v0.13.0
+	github.com/Medium/operator-sdk v0.13.0
 	sigs.k8s.io/controller-runtime v0.4.0
 )
 

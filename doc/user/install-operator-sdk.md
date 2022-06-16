@@ -20,18 +20,18 @@ $ brew install operator-sdk
 # Set the release version variable
 $ RELEASE_VERSION=v0.13.0
 # Linux
-$ curl -LO https://github.com/operator-framework/operator-sdk/releases/download/${RELEASE_VERSION}/operator-sdk-${RELEASE_VERSION}-x86_64-linux-gnu
+$ curl -LO https://github.com/Medium/operator-sdk/releases/download/${RELEASE_VERSION}/operator-sdk-${RELEASE_VERSION}-x86_64-linux-gnu
 # macOS
-$ curl -LO https://github.com/operator-framework/operator-sdk/releases/download/${RELEASE_VERSION}/operator-sdk-${RELEASE_VERSION}-x86_64-apple-darwin
+$ curl -LO https://github.com/Medium/operator-sdk/releases/download/${RELEASE_VERSION}/operator-sdk-${RELEASE_VERSION}-x86_64-apple-darwin
 ```
 
 #### Verify the downloaded release binary
 
 ```sh
 # Linux
-$ curl -LO https://github.com/operator-framework/operator-sdk/releases/download/${RELEASE_VERSION}/operator-sdk-${RELEASE_VERSION}-x86_64-linux-gnu.asc
+$ curl -LO https://github.com/Medium/operator-sdk/releases/download/${RELEASE_VERSION}/operator-sdk-${RELEASE_VERSION}-x86_64-linux-gnu.asc
 # macOS
-$ curl -LO https://github.com/operator-framework/operator-sdk/releases/download/${RELEASE_VERSION}/operator-sdk-${RELEASE_VERSION}-x86_64-apple-darwin.asc
+$ curl -LO https://github.com/Medium/operator-sdk/releases/download/${RELEASE_VERSION}/operator-sdk-${RELEASE_VERSION}-x86_64-apple-darwin.asc
 ```
 
 To verify a release binary using the provided asc files, place the binary and corresponding asc file into the same directory and use the corresponding command:
@@ -86,8 +86,8 @@ $ chmod +x operator-sdk-${RELEASE_VERSION}-x86_64-apple-darwin && sudo mkdir -p 
 - [go][go_tool] version v1.13+.
 
 ```sh
-$ go get -d github.com/operator-framework/operator-sdk # This will download the git repository and not install it
-$ cd $GOPATH/src/github.com/operator-framework/operator-sdk
+$ go get -d github.com/Medium/operator-sdk # This will download the git repository and not install it
+$ cd $GOPATH/src/github.com/Medium/operator-sdk
 $ git checkout master
 $ make tidy
 $ make install

@@ -18,7 +18,7 @@ import (
 	"flag"
 	"testing"
 
-	f "github.com/operator-framework/operator-sdk/pkg/test"
+	f "github.com/Medium/operator-sdk/pkg/test"
 )
 
 type testArgs struct {

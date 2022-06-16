@@ -24,11 +24,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/operator-framework/operator-sdk/pkg/ansible/metrics"
-	"github.com/operator-framework/operator-sdk/pkg/ansible/paramconv"
-	"github.com/operator-framework/operator-sdk/pkg/ansible/runner/eventapi"
-	"github.com/operator-framework/operator-sdk/pkg/ansible/runner/internal/inputdir"
-	"github.com/operator-framework/operator-sdk/pkg/ansible/watches"
+	"github.com/Medium/operator-sdk/pkg/ansible/metrics"
+	"github.com/Medium/operator-sdk/pkg/ansible/paramconv"
+	"github.com/Medium/operator-sdk/pkg/ansible/runner/eventapi"
+	"github.com/Medium/operator-sdk/pkg/ansible/runner/internal/inputdir"
+	"github.com/Medium/operator-sdk/pkg/ansible/watches"
 
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime/schema"

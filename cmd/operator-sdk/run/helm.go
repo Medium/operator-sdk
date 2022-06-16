@@ -15,9 +15,9 @@
 package run
 
 import (
-	"github.com/operator-framework/operator-sdk/pkg/helm"
-	hoflags "github.com/operator-framework/operator-sdk/pkg/helm/flags"
-	"github.com/operator-framework/operator-sdk/pkg/log/zap"
+	"github.com/Medium/operator-sdk/pkg/helm"
+	hoflags "github.com/Medium/operator-sdk/pkg/helm/flags"
+	"github.com/Medium/operator-sdk/pkg/log/zap"
 
 	"github.com/spf13/cobra"
 	logf "sigs.k8s.io/controller-runtime/pkg/log"

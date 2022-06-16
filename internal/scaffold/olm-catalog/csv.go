@@ -24,10 +24,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/operator-framework/operator-sdk/internal/scaffold"
-	"github.com/operator-framework/operator-sdk/internal/scaffold/input"
-	"github.com/operator-framework/operator-sdk/internal/util/k8sutil"
-	"github.com/operator-framework/operator-sdk/internal/util/yamlutil"
+	"github.com/Medium/operator-sdk/internal/scaffold"
+	"github.com/Medium/operator-sdk/internal/scaffold/input"
+	"github.com/Medium/operator-sdk/internal/util/k8sutil"
+	"github.com/Medium/operator-sdk/internal/util/yamlutil"
 
 	"github.com/blang/semver"
 	"github.com/ghodss/yaml"

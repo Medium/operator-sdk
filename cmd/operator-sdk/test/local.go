@@ -23,12 +23,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/operator-framework/operator-sdk/internal/scaffold"
-	"github.com/operator-framework/operator-sdk/internal/util/fileutil"
-	"github.com/operator-framework/operator-sdk/internal/util/projutil"
-	"github.com/operator-framework/operator-sdk/internal/util/yamlutil"
-	"github.com/operator-framework/operator-sdk/pkg/k8sutil"
-	"github.com/operator-framework/operator-sdk/pkg/test"
+	"github.com/Medium/operator-sdk/internal/scaffold"
+	"github.com/Medium/operator-sdk/internal/util/fileutil"
+	"github.com/Medium/operator-sdk/internal/util/projutil"
+	"github.com/Medium/operator-sdk/internal/util/yamlutil"
+	"github.com/Medium/operator-sdk/pkg/k8sutil"
+	"github.com/Medium/operator-sdk/pkg/test"
 
 	"github.com/ghodss/yaml"
 	log "github.com/sirupsen/logrus"

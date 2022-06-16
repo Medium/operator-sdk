@@ -196,7 +196,7 @@ $ git checkout -b release-v1.3.0
 Commit the following changes:
 
 - `version/version.go`: update `Version` to `v1.3.0`.
-- `internal/scaffold/go_mod.go`, change the `require` line version for `github.com/operator-framework/operator-sdk` from `master` to `v1.3.0`.
+- `internal/scaffold/go_mod.go`, change the `require` line version for `github.com/Medium/operator-sdk` from `master` to `v1.3.0`.
 - `internal/scaffold/helm/go_mod.go`: same as for `internal/scaffold/go_mod.go`.
 - `internal/scaffold/ansible/go_mod.go`: same as for `internal/scaffold/go_mod.go`.
 - `CHANGELOG.md`: update the `## Unreleased` header to `## v1.3.0`.
@@ -235,7 +235,7 @@ Once this tag passes CI, go to step 3. For more info on tagging, see the [releas
 Check out a new branch from master (or use your `release-v1.3.0` branch) and commit the following changes:
 
 - `version/version.go`: update `Version` to `v1.3.0+git`.
-- `internal/scaffold/go_mod.go`, change the `require` line version for `github.com/operator-framework/operator-sdk` from `v1.3.0` to `master`.
+- `internal/scaffold/go_mod.go`, change the `require` line version for `github.com/Medium/operator-sdk` from `v1.3.0` to `master`.
 - `internal/scaffold/helm/go_mod.go`: same as for `internal/scaffold/go_mod.go`.
 - `internal/scaffold/ansible/go_mod.go`: same as for `internal/scaffold/go_mod.go`.
 - `CHANGELOG.md`: add the following as a new set of headers above `## v1.3.0`:
@@ -278,7 +278,7 @@ $ git push origin v1.3.x
 Total 0 (delta 0), reused 0 (delta 0)
 remote:
 remote: Create a pull request for 'v1.3.x' on GitHub by visiting:
-remote:      https://github.com/operator-framework/operator-sdk/pull/new/v1.3.x
+remote:      https://github.com/Medium/operator-sdk/pull/new/v1.3.x
 remote:
 To github.com:operator-framework/operator-sdk.git
  * [new branch]      v1.3.x -> v1.3.x
@@ -298,7 +298,7 @@ docker exec -it <CONTAINER_ID> /bin/bash`
 git config --global github.name <GITHUB-USERNAME>
 git config --global github.token <GITHUB-TOKEN>
 # Replace the release version of the newly cut release.
-OPERATORSDKURL=https://github.com/operator-framework/operator-sdk/archive/<RELEASE-VERSION>.tar.gz
+OPERATORSDKURL=https://github.com/Medium/operator-sdk/archive/<RELEASE-VERSION>.tar.gz
 curl $OPERATORSDKURL -o operator-sdk
 # Calculate the SHA256
 OPERATORSUM="$(sha256sum operator-sdk | cut -d ' ' -f 1)"
@@ -330,7 +330,7 @@ The release process for the samples repo is simple:
 Add the following line to the top of the GitHub release notes for `v1.3.0`:
 
 ```md
-**NOTE:** ensure the `v1.3.0` tag is referenced when referring to sample code in the [SDK Operator samples repo](https://github.com/operator-framework/operator-sdk-samples/tree/v1.3.0) for this release. Links in SDK documentation are currently set to the samples repo `master` branch.
+**NOTE:** ensure the `v1.3.0` tag is referenced when referring to sample code in the [SDK Operator samples repo](https://github.com/Medium/operator-sdk-samples/tree/v1.3.0) for this release. Links in SDK documentation are currently set to the samples repo `master` branch.
 ```
 
 [install-guide]:../user/install-operator-sdk.md
@@ -341,9 +341,9 @@ Add the following line to the top of the GitHub release notes for `v1.3.0`:
 [link-github-gpg-key-upload]:https://github.com/settings/keys
 [link-git-config-gpg-key]:https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work
 [doc-changelog]:../../CHANGELOG.md
-[release-page]:https://github.com/operator-framework/operator-sdk/releases
+[release-page]:https://github.com/Medium/operator-sdk/releases
 [homebrew]:https://brew.sh/
 [homebrew-formula]:https://github.com/Homebrew/homebrew-core/blob/master/Formula/operator-sdk.rb
 [homebrew-readme]:https://github.com/Homebrew/homebrew-core/blob/master/CONTRIBUTING.md#to-submit-a-version-upgrade-for-the-foo-formula
 [homebrew-repo]:https://github.com/Homebrew/homebrew-core
-[sdk-samples-repo]:https://github.com/operator-framework/operator-sdk-samples
+[sdk-samples-repo]:https://github.com/Medium/operator-sdk-samples

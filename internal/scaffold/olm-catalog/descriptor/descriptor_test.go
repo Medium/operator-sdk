@@ -21,14 +21,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/operator-framework/operator-sdk/internal/util/diffutil"
+	"github.com/Medium/operator-sdk/internal/util/diffutil"
 
 	"github.com/ghodss/yaml"
 	olmapiv1alpha1 "github.com/operator-framework/operator-lifecycle-manager/pkg/api/apis/operators/v1alpha1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 )
 
-const testFrameworkPackage = "github.com/operator-framework/operator-sdk/test/test-framework"
+const testFrameworkPackage = "github.com/Medium/operator-sdk/test/test-framework"
 
 func getTestFrameworkDir(t *testing.T) string {
 	t.Helper()

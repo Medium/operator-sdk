@@ -37,8 +37,8 @@ import (
 	"k8s.io/helm/pkg/storage"
 	"k8s.io/helm/pkg/tiller"
 
+	"github.com/Medium/operator-sdk/pkg/helm/internal/types"
 	"github.com/mattbaird/jsonpatch"
-	"github.com/operator-framework/operator-sdk/pkg/helm/internal/types"
 )
 
 var (

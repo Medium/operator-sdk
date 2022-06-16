@@ -20,7 +20,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/operator-framework/operator-sdk/internal/scaffold"
+	"github.com/Medium/operator-sdk/internal/scaffold"
 )
 
 func TestConfig(t *testing.T) {

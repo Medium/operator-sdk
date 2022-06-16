@@ -66,4 +66,4 @@ If the contribution changes the existing APIs or user interface it must include 
 
 
 [operator_framework]: https://groups.google.com/forum/#!forum/operator-framework
-[changelog]: https://github.com/operator-framework/operator-sdk/blob/master/CHANGELOG.md
+[changelog]: https://github.com/Medium/operator-sdk/blob/master/CHANGELOG.md

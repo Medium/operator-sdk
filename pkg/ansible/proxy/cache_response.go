@@ -22,11 +22,11 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/operator-framework/operator-sdk/internal/util/k8sutil"
-	"github.com/operator-framework/operator-sdk/pkg/ansible/proxy/controllermap"
-	"github.com/operator-framework/operator-sdk/pkg/ansible/proxy/requestfactory"
-	k8sRequest "github.com/operator-framework/operator-sdk/pkg/ansible/proxy/requestfactory"
-	osdkHandler "github.com/operator-framework/operator-sdk/pkg/handler"
+	"github.com/Medium/operator-sdk/internal/util/k8sutil"
+	"github.com/Medium/operator-sdk/pkg/ansible/proxy/controllermap"
+	"github.com/Medium/operator-sdk/pkg/ansible/proxy/requestfactory"
+	k8sRequest "github.com/Medium/operator-sdk/pkg/ansible/proxy/requestfactory"
+	osdkHandler "github.com/Medium/operator-sdk/pkg/handler"
 
 	"k8s.io/apimachinery/pkg/api/meta"
 	metainternalversion "k8s.io/apimachinery/pkg/apis/meta/internalversion"

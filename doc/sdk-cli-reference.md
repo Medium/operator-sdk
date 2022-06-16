@@ -517,7 +517,7 @@ The operator-sdk test command runs go tests built using the Operator SDK's test 
 
 ```console
 $ operator-sdk test local ./test/e2e/
-ok    github.com/operator-framework/operator-sdk-samples/go/memcached-operator/test/e2e  20.410s
+ok    github.com/Medium/operator-sdk-samples/go/memcached-operator/test/e2e  20.410s
 ```
 
 ## up
@@ -615,7 +615,7 @@ cluster, checking to see if any of those resources exist (if none exist, it
 aborts with an error since OLM is not installed), and printing a summary of the
 status of each of those resources as they exist in the cluster.
 
-[utility_link]: https://github.com/operator-framework/operator-sdk/blob/89bf021063d18b6769bdc551ed08fc37027939d5/pkg/util/k8sutil/k8sutil.go#L140
+[utility_link]: https://github.com/Medium/operator-sdk/blob/89bf021063d18b6769bdc551ed08fc37027939d5/pkg/util/k8sutil/k8sutil.go#L140
 [k8s-code-generator]: https://github.com/kubernetes/code-generator
 [openapi-code-generator]: https://github.com/kubernetes/kube-openapi
-[helm-user-guide-create-project]: https://github.com/operator-framework/operator-sdk/blob/master/doc/helm/user-guide.md#create-a-new-project
+[helm-user-guide-create-project]: https://github.com/Medium/operator-sdk/blob/master/doc/helm/user-guide.md#create-a-new-project

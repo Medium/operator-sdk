@@ -31,10 +31,10 @@ import (
 	// Import all Kubernetes client auth plugins (e.g. Azure, GCP, OIDC, etc.)
 	_ "k8s.io/client-go/plugin/pkg/client/auth"
 
-	"github.com/operator-framework/operator-sdk/internal/scaffold"
-	k8sInternal "github.com/operator-framework/operator-sdk/internal/util/k8sutil"
-	"github.com/operator-framework/operator-sdk/internal/util/projutil"
-	"github.com/operator-framework/operator-sdk/pkg/k8sutil"
+	"github.com/Medium/operator-sdk/internal/scaffold"
+	k8sInternal "github.com/Medium/operator-sdk/internal/util/k8sutil"
+	"github.com/Medium/operator-sdk/internal/util/projutil"
+	"github.com/Medium/operator-sdk/pkg/k8sutil"
 
 	log "github.com/sirupsen/logrus"
 	extscheme "k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/scheme"

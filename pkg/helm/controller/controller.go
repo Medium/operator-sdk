@@ -34,9 +34,9 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/manager"
 	"sigs.k8s.io/controller-runtime/pkg/source"
 
-	"github.com/operator-framework/operator-sdk/pkg/helm/release"
-	"github.com/operator-framework/operator-sdk/pkg/internal/predicates"
-	"github.com/operator-framework/operator-sdk/pkg/predicate"
+	"github.com/Medium/operator-sdk/pkg/helm/release"
+	"github.com/Medium/operator-sdk/pkg/internal/predicates"
+	"github.com/Medium/operator-sdk/pkg/predicate"
 )
 
 var log = logf.Log.WithName("helm.controller")

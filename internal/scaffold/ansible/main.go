@@ -17,7 +17,7 @@ package ansible
 import (
 	"path/filepath"
 
-	"github.com/operator-framework/operator-sdk/internal/scaffold/input"
+	"github.com/Medium/operator-sdk/internal/scaffold/input"
 )
 
 // Main - main source file for ansible operator
@@ -41,9 +41,9 @@ import (
 	// Import all Kubernetes client auth plugins (e.g. Azure, GCP, OIDC, etc.)
 	_ "k8s.io/client-go/plugin/pkg/client/auth"
 
-	aoflags "github.com/operator-framework/operator-sdk/pkg/ansible/flags"
-	"github.com/operator-framework/operator-sdk/pkg/ansible"
-	"github.com/operator-framework/operator-sdk/pkg/log/zap"
+	aoflags "github.com/Medium/operator-sdk/pkg/ansible/flags"
+	"github.com/Medium/operator-sdk/pkg/ansible"
+	"github.com/Medium/operator-sdk/pkg/log/zap"
 
 	"github.com/spf13/pflag"
 	logf "sigs.k8s.io/controller-runtime/pkg/log"

@@ -17,7 +17,7 @@ package helm
 import (
 	"path/filepath"
 
-	"github.com/operator-framework/operator-sdk/internal/scaffold/input"
+	"github.com/Medium/operator-sdk/internal/scaffold/input"
 )
 
 // Entrypoint - entrypoint script

@@ -190,7 +190,7 @@ then
     exit 1
 fi
 
-add_go_mod_replace "github.com/operator-framework/operator-sdk" "$ROOTDIR"
+add_go_mod_replace "github.com/Medium/operator-sdk" "$ROOTDIR"
 header_text "Build the project to resolve dependency versions in the modfile."
 go build ./...
 

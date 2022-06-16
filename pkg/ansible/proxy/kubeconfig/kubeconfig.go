@@ -23,7 +23,7 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/operator-framework/operator-sdk/internal/util/fileutil"
+	"github.com/Medium/operator-sdk/internal/util/fileutil"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	logf "sigs.k8s.io/controller-runtime/pkg/log"

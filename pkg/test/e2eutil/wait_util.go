@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/operator-framework/operator-sdk/pkg/test"
+	"github.com/Medium/operator-sdk/pkg/test"
 
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

@@ -19,12 +19,12 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	"github.com/operator-framework/operator-sdk/internal/scaffold"
-	"github.com/operator-framework/operator-sdk/internal/scaffold/input"
-	catalog "github.com/operator-framework/operator-sdk/internal/scaffold/olm-catalog"
-	"github.com/operator-framework/operator-sdk/internal/util/fileutil"
-	"github.com/operator-framework/operator-sdk/internal/util/k8sutil"
-	"github.com/operator-framework/operator-sdk/internal/util/projutil"
+	"github.com/Medium/operator-sdk/internal/scaffold"
+	"github.com/Medium/operator-sdk/internal/scaffold/input"
+	catalog "github.com/Medium/operator-sdk/internal/scaffold/olm-catalog"
+	"github.com/Medium/operator-sdk/internal/util/fileutil"
+	"github.com/Medium/operator-sdk/internal/util/k8sutil"
+	"github.com/Medium/operator-sdk/internal/util/projutil"
 
 	"github.com/coreos/go-semver/semver"
 	log "github.com/sirupsen/logrus"

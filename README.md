@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/operator-framework/operator-sdk.svg?branch=master)](https://travis-ci.org/operator-framework/operator-sdk)
 [![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
-[![Go Report Card](https://goreportcard.com/badge/github.com/operator-framework/operator-sdk)](https://goreportcard.com/report/github.com/operator-framework/operator-sdk)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Medium/operator-sdk)](https://goreportcard.com/report/github.com/Medium/operator-sdk)
 
 ## Overview
 
@@ -55,7 +55,7 @@ The following workflow is for a new **Helm** operator:
 
 Follow the steps in the [installation guide][install_guide] to learn how to install the Operator SDK CLI tool.
 
-**Note:** If you are using a release version of the SDK, make sure to follow the documentation for that version. e.g.: For version 0.8.1, see docs in https://github.com/operator-framework/operator-sdk/tree/v0.8.1.
+**Note:** If you are using a release version of the SDK, make sure to follow the documentation for that version. e.g.: For version 0.8.1, see docs in https://github.com/Medium/operator-sdk/tree/v0.8.1.
 
 ### Create and deploy an app-operator
 
@@ -173,7 +173,7 @@ Operator SDK is under Apache 2.0 license. See the [LICENSE][license_file] file f
 [proposals_docs]: ./doc/proposals
 [sdk_cli_ref]: ./doc/sdk-cli-reference.md
 [guide]: ./doc/user-guide.md
-[samples]: https://github.com/operator-framework/operator-sdk-samples
+[samples]: https://github.com/Medium/operator-sdk-samples
 [of-home]: https://github.com/operator-framework
 [of-blog]: https://coreos.com/blog/introducing-operator-framework
 [contrib]: ./CONTRIBUTING.MD

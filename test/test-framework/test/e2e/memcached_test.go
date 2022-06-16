@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	framework "github.com/operator-framework/operator-sdk/pkg/test"
-	"github.com/operator-framework/operator-sdk/pkg/test/e2eutil"
-	apis "github.com/operator-framework/operator-sdk/test/test-framework/pkg/apis"
-	operator "github.com/operator-framework/operator-sdk/test/test-framework/pkg/apis/cache/v1alpha1"
+	framework "github.com/Medium/operator-sdk/pkg/test"
+	"github.com/Medium/operator-sdk/pkg/test/e2eutil"
+	apis "github.com/Medium/operator-sdk/test/test-framework/pkg/apis"
+	operator "github.com/Medium/operator-sdk/test/test-framework/pkg/apis/cache/v1alpha1"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"

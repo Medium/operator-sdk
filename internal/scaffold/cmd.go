@@ -17,7 +17,7 @@ package scaffold
 import (
 	"path/filepath"
 
-	"github.com/operator-framework/operator-sdk/internal/scaffold/input"
+	"github.com/Medium/operator-sdk/internal/scaffold/input"
 )
 
 const CmdFile = "main.go"
@@ -51,13 +51,13 @@ import (
 	"{{ .Repo }}/pkg/controller"
 	"{{ .Repo }}/version"
 
-	"github.com/operator-framework/operator-sdk/pkg/k8sutil"
-	kubemetrics "github.com/operator-framework/operator-sdk/pkg/kube-metrics"
-	"github.com/operator-framework/operator-sdk/pkg/leader"
-	"github.com/operator-framework/operator-sdk/pkg/log/zap"
-	"github.com/operator-framework/operator-sdk/pkg/metrics"
-	"github.com/operator-framework/operator-sdk/pkg/restmapper"
-	sdkVersion "github.com/operator-framework/operator-sdk/version"
+	"github.com/Medium/operator-sdk/pkg/k8sutil"
+	kubemetrics "github.com/Medium/operator-sdk/pkg/kube-metrics"
+	"github.com/Medium/operator-sdk/pkg/leader"
+	"github.com/Medium/operator-sdk/pkg/log/zap"
+	"github.com/Medium/operator-sdk/pkg/metrics"
+	"github.com/Medium/operator-sdk/pkg/restmapper"
+	sdkVersion "github.com/Medium/operator-sdk/version"
 	"github.com/spf13/pflag"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"

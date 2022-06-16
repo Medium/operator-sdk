@@ -19,7 +19,7 @@ The following sections outline the upgrade steps for each SDK version along with
 - Update the SDK constraint in `Gopkg.toml` to version `v0.2.1` and run `dep ensure` to update the vendor directory.
   ```TOML
   [[constraint]]
-    name = "github.com/operator-framework/operator-sdk"
+    name = "github.com/Medium/operator-sdk"
     version = "=v0.2.1"
   ```
 
@@ -57,7 +57,7 @@ The following sections outline the upgrade steps for each SDK version along with
     version = "=v0.1.8"
 
   [[constraint]]
-    name = "github.com/operator-framework/operator-sdk"
+    name = "github.com/Medium/operator-sdk"
     version = "=v0.3.0"
   ```
 
@@ -66,7 +66,7 @@ The following sections outline the upgrade steps for each SDK version along with
 - Update the SDK constraint in `Gopkg.toml` to version `v0.4.1` and run `dep ensure` to update the vendor directory.
   ```TOML
   [[constraint]]
-    name = "github.com/operator-framework/operator-sdk"
+    name = "github.com/Medium/operator-sdk"
     version = "=v0.4.1"
   ```
 
@@ -104,7 +104,7 @@ The following sections outline the upgrade steps for each SDK version along with
     version = "=v0.1.10"
 
   [[constraint]]
-    name = "github.com/operator-framework/operator-sdk"
+    name = "github.com/Medium/operator-sdk"
     version = "=v0.5.0"
   ```
 
@@ -143,7 +143,7 @@ The following sections outline the upgrade steps for each SDK version along with
 - Update the SDK constraint in `Gopkg.toml` to version `v0.6.0` and run `dep ensure` to update the vendor directory.
   ```TOML
   [[constraint]]
-    name = "github.com/operator-framework/operator-sdk"
+    name = "github.com/Medium/operator-sdk"
     version = "=v0.6.0"
   ```
 
@@ -164,7 +164,7 @@ The following sections outline the upgrade steps for each SDK version along with
 - Update the SDK constraint in `Gopkg.toml` to version `v0.7.1` and run `dep ensure` to update the vendor directory.
   ```TOML
   [[constraint]]
-    name = "github.com/operator-framework/operator-sdk"
+    name = "github.com/Medium/operator-sdk"
     version = "=v0.7.1"
   ```
 
@@ -177,10 +177,10 @@ The SDK version `v0.8.x` supports scaffolding projects to use Go modules by defa
 - Update the SDK constraint in `Gopkg.toml` to version `v0.8.2`.
   ```TOML
   [[constraint]]
-    name = "github.com/operator-framework/operator-sdk"
+    name = "github.com/Medium/operator-sdk"
     version = "=v0.8.2"
   ```
-- Pin the controller-tools dependency to the following revision. See the release notes or [#1278](https://github.com/operator-framework/operator-sdk/pull/1278/) for why this is needed.
+- Pin the controller-tools dependency to the following revision. See the release notes or [#1278](https://github.com/Medium/operator-sdk/pull/1278/) for why this is needed.
   ```TOML
   [[override]]
     name = "sigs.k8s.io/controller-tools"
@@ -213,7 +213,7 @@ replace (
 	sigs.k8s.io/controller-tools => sigs.k8s.io/controller-tools v0.1.11-0.20190411181648-9d55346c2bde
 )
 
-replace github.com/operator-framework/operator-sdk => github.com/operator-framework/operator-sdk v0.8.2
+replace github.com/Medium/operator-sdk => github.com/Medium/operator-sdk v0.8.2
 ```
 - Run `go mod tidy` to clean up the `go.mod` file.
   - In case of any go module loading errors, consult the default [`v0.8.2` go.mod dependencies][v0.8.2-go-mod] scaffolded by the operator-sdk to resolve any differences. You can also view this file by scaffolding a new project with operator-sdk `v0.8.2`.
@@ -261,7 +261,7 @@ Upon updating the project to `v0.8.2` the following breaking changes apply:
 
 ## `v0.9.x`
 
-- The function `ExposeMetricsPort()` has been replaced with `CreateMetricsService()` [#1560](https://github.com/operator-framework/operator-sdk/pull/1560).
+- The function `ExposeMetricsPort()` has been replaced with `CreateMetricsService()` [#1560](https://github.com/Medium/operator-sdk/pull/1560).
 
   Replace the following line in `cmd/manager/main.go`
   ```Go
@@ -304,7 +304,7 @@ Upon updating the project to `v0.8.2` the following breaking changes apply:
     name = "sigs.k8s.io/controller-runtime"
     version = "=v0.1.12"
   [[constraint]]
-    name = "github.com/operator-framework/operator-sdk"
+    name = "github.com/Medium/operator-sdk"
     version = "=v0.9.0"
   ```
 - Append the contraint for `k8s.io/kube-state-metrics`.
@@ -332,7 +332,7 @@ Upon updating the project to `v0.8.2` the following breaking changes apply:
     sigs.k8s.io/controller-tools => sigs.k8s.io/controller-tools v0.1.11-0.20190411181648-9d55346c2bde
     k8s.io/kube-state-metrics => k8s.io/kube-state-metrics v1.6.0
   )
-  replace github.com/operator-framework/operator-sdk => github.com/operator-framework/operator-sdk v0.9.0
+  replace github.com/Medium/operator-sdk => github.com/Medium/operator-sdk v0.9.0
   ```
 
 ## `v0.10.x`
@@ -363,7 +363,7 @@ Upon updating the project to `v0.8.2` the following breaking changes apply:
             sigs.k8s.io/controller-tools => sigs.k8s.io/controller-tools v0.1.11-0.20190411181648-9d55346c2bde
     )
 
-    replace github.com/operator-framework/operator-sdk => github.com/operator-framework/operator-sdk v0.10.0
+    replace github.com/Medium/operator-sdk => github.com/Medium/operator-sdk v0.10.0
     ```
 
 ## `v0.11.x`
@@ -398,7 +398,7 @@ Upon updating the project to `v0.8.2` the following breaking changes apply:
       name = "sigs.k8s.io/controller-runtime"
       version = "=v0.2.2"
     [[constraint]]
-      name = "github.com/operator-framework/operator-sdk"
+      name = "github.com/Medium/operator-sdk"
       version = "=v0.11.0"
     ```
 - Append an override for `gopkg.in/fsnotify.v1`, which is required when resolving controller-runtime dependencies:
@@ -430,7 +430,7 @@ Upon updating the project to `v0.8.2` the following breaking changes apply:
     	github.com/prometheus/prometheus => github.com/prometheus/prometheus d20e84d0fb64aff2f62a977adc8cfb656da4e286
     )
 
-    replace github.com/operator-framework/operator-sdk => github.com/operator-framework/operator-sdk v0.11.0
+    replace github.com/Medium/operator-sdk => github.com/Medium/operator-sdk v0.11.0
     ```
 
 ### Import updates
@@ -477,7 +477,7 @@ All method signatures for [`sigs.k8s.io/controller-runtime/pkg/client.Client`](h
 
 ### Operator SDK updates
 
-- [`pkg/test.FrameworkClient`](https://github.com/operator-framework/operator-sdk/blob/947a464/pkg/test/client.go#L33) `List()` and `Delete()` method invocations should be updated to match those of `Client.List()` and `Client.Delete()`, described above.
+- [`pkg/test.FrameworkClient`](https://github.com/Medium/operator-sdk/blob/947a464/pkg/test/client.go#L33) `List()` and `Delete()` method invocations should be updated to match those of `Client.List()` and `Client.Delete()`, described above.
 - The annotation to assign a scope to your CRD has changed. For the following changes, note that `<resource>` is the plural lower-case CRD Kind found at `spec.names.plural`.
     - For `Namespaced`-scoped operators, add a `+kubebuilder:resource:path=<resource>,scope=Namespaced` comment above your kind type in `pkg/apis/<group>/<version>/<kind>_types.go`.
     - For `Cluster`-scoped operators, replace the `+genclient:nonNamespaced` comment above your kind type in `pkg/apis/<group>/<version>/<kind>_types.go` with `+kubebuilder:resource:path=<resource>,scope=Cluster`.
@@ -503,7 +503,7 @@ Using `dep` is no longer supported. Follow [Go's official blog post about migrat
 ```
 require (
     github.com/go-openapi/spec v0.19.0
-    github.com/operator-framework/operator-sdk v0.12.1-0.20191112211508-82fc57de5e5b
+    github.com/Medium/operator-sdk v0.12.1-0.20191112211508-82fc57de5e5b
     github.com/spf13/pflag v1.0.3
     k8s.io/api v0.0.0
     k8s.io/apimachinery v0.0.0
@@ -537,7 +537,7 @@ replace (
 )
 ```
 
-**NOTE**: Check [here](https://github.com/operator-framework/operator-sdk-samples/pull/90/files#diff-e15cac8b95d260726ca9db9fb25d9230) an example of this upgrade to see the changes from the version `0.11.0` to `0.12.0`.
+**NOTE**: Check [here](https://github.com/Medium/operator-sdk-samples/pull/90/files#diff-e15cac8b95d260726ca9db9fb25d9230) an example of this upgrade to see the changes from the version `0.11.0` to `0.12.0`.
 
 - Run `go mod tidy` to update the project modules
 - Run the command `operator-sdk generate k8s` to ensure that your resources will be updated
@@ -545,7 +545,7 @@ replace (
 
 ### (Optional) Update your operator to print its version
 
-In v0.12.0, the SDK team updated the scaffold for `cmd/manager/main.go` to include the operator's version in the output produced by the `printVersion()` function. See [#1953](https://github.com/operator-framework/operator-sdk/pull/1953)
+In v0.12.0, the SDK team updated the scaffold for `cmd/manager/main.go` to include the operator's version in the output produced by the `printVersion()` function. See [#1953](https://github.com/Medium/operator-sdk/pull/1953)
 
 To add this feature to your operator, add the following lines in `<project>/cmd/manager/main.go`:
 
@@ -563,14 +563,14 @@ func printVersion() {
 ```
 
 [legacy-kubebuilder-doc-crd]: https://book-v1.book.kubebuilder.io/beyond_basics/generating_crd.html
-[v0.8.2-go-mod]: https://github.com/operator-framework/operator-sdk/blob/28bd2b0d4fd25aa68e15d928ae09d3c18c3b51da/internal/pkg/scaffold/go_mod.go#L40-L94
+[v0.8.2-go-mod]: https://github.com/Medium/operator-sdk/blob/28bd2b0d4fd25aa68e15d928ae09d3c18c3b51da/internal/pkg/scaffold/go_mod.go#L40-L94
 [activating-modules]: https://github.com/golang/go/wiki/Modules#how-to-install-and-activate-module-support
 [mercurial]: https://www.mercurial-scm.org/downloads
 [migrating-to-modules]: https://github.com/golang/go/wiki/Modules#migrating-to-modules
 [modules-wiki]: https://github.com/golang/go/wiki/Modules#migrating-to-modules
 [print-deps-cli]: ../sdk-cli-reference.md#print-deps
 [changelog]: ../../CHANGELOG.md
-[release-notes]: https://github.com/operator-framework/operator-sdk/releases
+[release-notes]: https://github.com/Medium/operator-sdk/releases
 [v0.1.0-migration-guide]: ./v0.1.0-migration-guide.md
 [manifest-format]: https://github.com/operator-framework/operator-registry#manifest-format
 [client-doc]: ../user/client.md

@@ -18,7 +18,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/operator-framework/operator-sdk/internal/scaffold"
+	"github.com/Medium/operator-sdk/internal/scaffold"
 
 	log "github.com/sirupsen/logrus"
 )

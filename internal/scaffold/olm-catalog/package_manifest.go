@@ -21,9 +21,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/operator-framework/operator-sdk/internal/scaffold"
-	"github.com/operator-framework/operator-sdk/internal/scaffold/input"
-	registryutil "github.com/operator-framework/operator-sdk/internal/util/operator-registry"
+	"github.com/Medium/operator-sdk/internal/scaffold"
+	"github.com/Medium/operator-sdk/internal/scaffold/input"
+	registryutil "github.com/Medium/operator-sdk/internal/util/operator-registry"
 
 	"github.com/ghodss/yaml"
 	"github.com/operator-framework/operator-registry/pkg/registry"

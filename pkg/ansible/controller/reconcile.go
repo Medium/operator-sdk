@@ -25,12 +25,12 @@ import (
 	"strings"
 	"time"
 
-	ansiblestatus "github.com/operator-framework/operator-sdk/pkg/ansible/controller/status"
-	"github.com/operator-framework/operator-sdk/pkg/ansible/events"
-	"github.com/operator-framework/operator-sdk/pkg/ansible/metrics"
-	"github.com/operator-framework/operator-sdk/pkg/ansible/proxy/kubeconfig"
-	"github.com/operator-framework/operator-sdk/pkg/ansible/runner"
-	"github.com/operator-framework/operator-sdk/pkg/ansible/runner/eventapi"
+	ansiblestatus "github.com/Medium/operator-sdk/pkg/ansible/controller/status"
+	"github.com/Medium/operator-sdk/pkg/ansible/events"
+	"github.com/Medium/operator-sdk/pkg/ansible/metrics"
+	"github.com/Medium/operator-sdk/pkg/ansible/proxy/kubeconfig"
+	"github.com/Medium/operator-sdk/pkg/ansible/runner"
+	"github.com/Medium/operator-sdk/pkg/ansible/runner/eventapi"
 
 	v1 "k8s.io/api/core/v1"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"

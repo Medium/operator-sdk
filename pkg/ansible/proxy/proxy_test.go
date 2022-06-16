@@ -21,8 +21,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/operator-framework/operator-sdk/internal/util/fileutil"
-	"github.com/operator-framework/operator-sdk/pkg/ansible/proxy/controllermap"
+	"github.com/Medium/operator-sdk/internal/util/fileutil"
+	"github.com/Medium/operator-sdk/pkg/ansible/proxy/controllermap"
 
 	kcorev1 "k8s.io/api/core/v1"
 	kmetav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

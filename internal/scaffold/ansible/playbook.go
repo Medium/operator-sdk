@@ -15,8 +15,8 @@
 package ansible
 
 import (
-	"github.com/operator-framework/operator-sdk/internal/scaffold"
-	"github.com/operator-framework/operator-sdk/internal/scaffold/input"
+	"github.com/Medium/operator-sdk/internal/scaffold"
+	"github.com/Medium/operator-sdk/internal/scaffold/input"
 )
 
 const PlaybookYamlFile = "playbook.yml"

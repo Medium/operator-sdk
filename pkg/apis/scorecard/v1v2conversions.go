@@ -15,8 +15,8 @@
 package scorecard
 
 import (
-	scapiv1alpha1 "github.com/operator-framework/operator-sdk/pkg/apis/scorecard/v1alpha1"
-	scapiv1alpha2 "github.com/operator-framework/operator-sdk/pkg/apis/scorecard/v1alpha2"
+	scapiv1alpha1 "github.com/Medium/operator-sdk/pkg/apis/scorecard/v1alpha1"
+	scapiv1alpha2 "github.com/Medium/operator-sdk/pkg/apis/scorecard/v1alpha2"
 )
 
 func ConvertScorecardOutputV1ToV2(v1ScorecardOutput scapiv1alpha1.ScorecardOutput) scapiv1alpha2.ScorecardOutput {

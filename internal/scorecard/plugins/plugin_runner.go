@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/operator-framework/operator-sdk/internal/scaffold"
-	schelpers "github.com/operator-framework/operator-sdk/internal/scorecard/helpers"
-	k8sInternal "github.com/operator-framework/operator-sdk/internal/util/k8sutil"
-	"github.com/operator-framework/operator-sdk/internal/util/yamlutil"
-	scapiv1alpha1 "github.com/operator-framework/operator-sdk/pkg/apis/scorecard/v1alpha1"
+	"github.com/Medium/operator-sdk/internal/scaffold"
+	schelpers "github.com/Medium/operator-sdk/internal/scorecard/helpers"
+	k8sInternal "github.com/Medium/operator-sdk/internal/util/k8sutil"
+	"github.com/Medium/operator-sdk/internal/util/yamlutil"
+	scapiv1alpha1 "github.com/Medium/operator-sdk/pkg/apis/scorecard/v1alpha1"
 
 	"github.com/ghodss/yaml"
 	olmapiv1alpha1 "github.com/operator-framework/operator-lifecycle-manager/pkg/api/apis/operators/v1alpha1"

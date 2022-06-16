@@ -15,7 +15,7 @@
 package alpha
 
 import (
-	"github.com/operator-framework/operator-sdk/cmd/operator-sdk/alpha/olm"
+	"github.com/Medium/operator-sdk/cmd/operator-sdk/alpha/olm"
 	"github.com/spf13/cobra"
 )
 

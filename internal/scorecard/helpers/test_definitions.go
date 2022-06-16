@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"strings"
 
-	scapiv1alpha1 "github.com/operator-framework/operator-sdk/pkg/apis/scorecard/v1alpha1"
+	scapiv1alpha1 "github.com/Medium/operator-sdk/pkg/apis/scorecard/v1alpha1"
 	"k8s.io/apimachinery/pkg/labels"
 )
 

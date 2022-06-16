@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/operator-framework/operator-sdk/internal/scaffold/input"
+	"github.com/Medium/operator-sdk/internal/scaffold/input"
 
 	log "github.com/sirupsen/logrus"
 )
@@ -70,7 +70,7 @@ func setupTestFrameworkConfig() (*input.Config, error) {
 	// Set the project and repo path suffixes to test/test-framework, which
 	// contains pkg/apis for the memcached-operator.
 	return &input.Config{
-		Repo:           "github.com/operator-framework/operator-sdk/test/test-framework",
+		Repo:           "github.com/Medium/operator-sdk/test/test-framework",
 		AbsProjectPath: tfDir,
 		ProjectName:    filepath.Base(tfDir),
 	}, nil

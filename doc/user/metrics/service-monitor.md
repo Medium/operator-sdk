@@ -15,7 +15,7 @@ The `CreateServiceMonitors` function takes `Service` objects and generates `Serv
 ```go
     import(
         "k8s.io/api/core/v1"
-        "github.com/operator-framework/operator-sdk/pkg/metrics"
+        "github.com/Medium/operator-sdk/pkg/metrics"
     )
 
     func main() {

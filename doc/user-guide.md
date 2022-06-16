@@ -604,7 +604,7 @@ A call to `leader.Become()` will block the operator as it retries until it can b
 ```Go
 import (
   ...
-  "github.com/operator-framework/operator-sdk/pkg/leader"
+  "github.com/Medium/operator-sdk/pkg/leader"
 )
 
 func main() {
@@ -653,7 +653,7 @@ When the operator is not running in a cluster, the Manager will return an error 
 [pod_eviction_timeout]: https://kubernetes.io/docs/reference/command-line-tools-reference/kube-controller-manager/#options
 [manager_options]: https://godoc.org/github.com/kubernetes-sigs/controller-runtime/pkg/manager#Options
 [lease_split_brain]: https://github.com/kubernetes/client-go/blob/30b06a83d67458700a5378239df6b96948cb9160/tools/leaderelection/leaderelection.go#L21-L24
-[leader_for_life]: https://godoc.org/github.com/operator-framework/operator-sdk/pkg/leader
+[leader_for_life]: https://godoc.org/github.com/Medium/operator-sdk/pkg/leader
 [leader_with_lease]: https://godoc.org/github.com/kubernetes-sigs/controller-runtime/pkg/leaderelection
 [memcached_handler]: ../example/memcached-operator/handler.go.tmpl
 [memcached_controller]: ../example/memcached-operator/memcached_controller.go.tmpl

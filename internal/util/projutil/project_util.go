@@ -265,7 +265,7 @@ func CheckGoModules() error {
 	}
 	if !goModOn {
 		return fmt.Errorf(`using go modules requires GO111MODULE="on", "auto", or unset.` +
-			` More info: https://github.com/operator-framework/operator-sdk/blob/master/doc/user-guide.md#go-modules`)
+			` More info: https://github.com/Medium/operator-sdk/blob/master/doc/user-guide.md#go-modules`)
 	}
 	return nil
 }

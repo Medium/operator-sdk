@@ -17,7 +17,7 @@ package version
 import (
 	"fmt"
 
-	ver "github.com/operator-framework/operator-sdk/version"
+	ver "github.com/Medium/operator-sdk/version"
 
 	"github.com/spf13/cobra"
 )

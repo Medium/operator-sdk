@@ -17,7 +17,7 @@ package scaffold
 import (
 	"testing"
 
-	"github.com/operator-framework/operator-sdk/internal/util/diffutil"
+	"github.com/Medium/operator-sdk/internal/util/diffutil"
 )
 
 func TestGitignore(t *testing.T) {

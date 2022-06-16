@@ -20,7 +20,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/operator-framework/operator-sdk/internal/scaffold/input"
+	"github.com/Medium/operator-sdk/internal/scaffold/input"
 )
 
 // CR is the input needed to generate a deploy/crds/<full group>_<version>_<kind>_cr.yaml file

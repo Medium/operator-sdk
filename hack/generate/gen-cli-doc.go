@@ -21,7 +21,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra/doc"
 
-	"github.com/operator-framework/operator-sdk/cmd/operator-sdk/cli"
+	"github.com/Medium/operator-sdk/cmd/operator-sdk/cli"
 )
 
 func main() {

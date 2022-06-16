@@ -17,7 +17,7 @@ package generate
 import (
 	"fmt"
 
-	"github.com/operator-framework/operator-sdk/cmd/operator-sdk/internal/genutil"
+	"github.com/Medium/operator-sdk/cmd/operator-sdk/internal/genutil"
 	"github.com/spf13/cobra"
 )
 

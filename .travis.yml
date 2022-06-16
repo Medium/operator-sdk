@@ -4,7 +4,7 @@ branches:
     - release-4.3
 
 language: go
-go_import_path: github.com/operator-framework/operator-sdk
+go_import_path: github.com/Medium/operator-sdk
 sudo: required
 
 # go modules require xenial for mercurial TLS 1.2 support

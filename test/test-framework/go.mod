@@ -1,9 +1,9 @@
-module github.com/operator-framework/operator-sdk/test/test-framework
+module github.com/Medium/operator-sdk/test/test-framework
 
 go 1.13
 
 require (
-	github.com/operator-framework/operator-sdk v0.0.0
+	github.com/Medium/operator-sdk v0.0.0
 	github.com/spf13/pflag v1.0.5
 	k8s.io/api v0.0.0
 	k8s.io/apimachinery v0.0.0
@@ -36,4 +36,4 @@ replace (
 	k8s.io/sample-apiserver => k8s.io/sample-apiserver v0.0.0-20191016112829-06bb3c9d77c9
 )
 
-replace github.com/operator-framework/operator-sdk => ../../
+replace github.com/Medium/operator-sdk => ../../

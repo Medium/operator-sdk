@@ -27,8 +27,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/operator-framework/operator-sdk/internal/scaffold/input"
-	"github.com/operator-framework/operator-sdk/internal/util/fileutil"
+	"github.com/Medium/operator-sdk/internal/scaffold/input"
+	"github.com/Medium/operator-sdk/internal/util/fileutil"
 
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"

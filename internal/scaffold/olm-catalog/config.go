@@ -20,7 +20,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/operator-framework/operator-sdk/internal/scaffold"
+	"github.com/Medium/operator-sdk/internal/scaffold"
 
 	"github.com/ghodss/yaml"
 	log "github.com/sirupsen/logrus"

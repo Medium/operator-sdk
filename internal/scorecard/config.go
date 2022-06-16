@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	schelpers "github.com/operator-framework/operator-sdk/internal/scorecard/helpers"
+	schelpers "github.com/Medium/operator-sdk/internal/scorecard/helpers"
 	"gopkg.in/yaml.v2"
 )
 

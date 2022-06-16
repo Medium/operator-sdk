@@ -16,7 +16,7 @@ COPY --from=builder /helm/nginx-operator/helm-charts/ ${HOME}/helm-charts
 # install operator binary
 COPY --from=builder /nginx-operator ${OPERATOR}
 
-COPY --from=builder /go/src/github.com/operator-framework/operator-sdk/bin /usr/local/bin
+COPY --from=builder /go/src/github.com/Medium/operator-sdk/bin /usr/local/bin
 RUN /usr/local/bin/user_setup
 
 ENTRYPOINT ["/usr/local/bin/entrypoint"]

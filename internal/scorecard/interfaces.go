@@ -22,10 +22,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/operator-framework/operator-sdk/internal/scaffold"
-	scplugins "github.com/operator-framework/operator-sdk/internal/scorecard/plugins"
-	scapiv1alpha1 "github.com/operator-framework/operator-sdk/pkg/apis/scorecard/v1alpha1"
-	"github.com/operator-framework/operator-sdk/version"
+	"github.com/Medium/operator-sdk/internal/scaffold"
+	scplugins "github.com/Medium/operator-sdk/internal/scorecard/plugins"
+	scapiv1alpha1 "github.com/Medium/operator-sdk/pkg/apis/scorecard/v1alpha1"
+	"github.com/Medium/operator-sdk/version"
 	v1 "k8s.io/api/core/v1"
 )
 
