@@ -1,4 +1,4 @@
-module github.com/operator-framework/operator-sdk
+module github.com/Medium/operator-sdk
 
 go 1.13
 
