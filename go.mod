@@ -1,5 +1,4 @@
-module github.com/operator-framework/operator-sdk
-replace github.com/operator-framework/operator-sdk => github.com/Medium/operator-sdk v0.13.0-update
+module github.com/Medium/operator-sdk
 
 go 1.13
 

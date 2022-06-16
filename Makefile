@@ -11,7 +11,7 @@ endif
 
 VERSION = $(shell git describe --dirty --tags --always)
 GIT_COMMIT = $(shell git rev-parse HEAD)
-REPO = github.com/operator-framework/operator-sdk
+REPO = github.com/Medium/operator-sdk
 BUILD_PATH = $(REPO)/cmd/operator-sdk
 PKGS = $(shell go list ./... | grep -v /vendor/)
 SOURCES = $(shell find . -name '*.go' -not -path "*/vendor/*")
@@ -185,7 +185,7 @@ test-sanity test/sanity: tidy build/operator-sdk
 	./hack/tests/sanity-check.sh
 	./hack/tests/check-lint.sh ci
 
-TEST_PKGS:=$(shell go list ./... | grep -v -P 'github.com/operator-framework/operator-sdk/(hack|test/e2e)')
+TEST_PKGS:=$(shell go list ./... | grep -v -P 'github.com/Medium/operator-sdk/(hack|test/e2e)')
 test-unit test/unit: ## Run the unit tests
 	$(Q)go test -coverprofile=coverage.out -covermode=count -count=1 -short ${TEST_PKGS}
 
