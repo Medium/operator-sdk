@@ -69,10 +69,10 @@ func reflectorPerNamespace(
 func listWatchFunc(dynamicInterface dynamic.NamespaceableResourceInterface, namespace string) cache.ListWatch {
 	return cache.ListWatch{
 		ListFunc: func(opts metav1.ListOptions) (runtime.Object, error) {
-			return dynamicInterface.Namespace(namespace).List(opts)
+			return dynamicInterface.Namespace(namespace).List(context.TODO(), opts)
 		},
 		WatchFunc: func(opts metav1.ListOptions) (watch.Interface, error) {
-			return dynamicInterface.Namespace(namespace).Watch(opts)
+			return dynamicInterface.Namespace(namespace).Watch(context.TODO(), opts)
 		},
 	}
 }

@@ -15,6 +15,7 @@
 package metrics
 
 import (
+	"context"
 	"fmt"
 
 	monitoringv1 "github.com/coreos/prometheus-operator/pkg/apis/monitoring/v1"
@@ -56,7 +57,7 @@ func CreateServiceMonitors(config *rest.Config, ns string, services []*v1.Servic
 			}
 		}
 
-		smc, err := mclient.ServiceMonitors(ns).Create(sm)
+		smc, err := mclient.ServiceMonitors(ns).Create(context.TODO(), sm, metav1.CreateOptions{})
 		if err != nil {
 			return serviceMonitors, err
 		}
